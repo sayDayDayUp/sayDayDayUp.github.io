@@ -1,0 +1,29 @@
+.index--container{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    h2{
+      text-align: center;
+    }
+    input{
+      text-align: center;
+      margin: 20px 0;
+    }
+    .container{
+      text-align: center;
+    }
+  }
+  .message{
+    position: absolute;
+    top: 20px;
+    display: none;
+  }
+}

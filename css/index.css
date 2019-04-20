@@ -1,0 +1,25 @@
+.index--container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; }
+  .index--container .row {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .index--container .row h2 {
+      text-align: center; }
+    .index--container .row input {
+      text-align: center;
+      margin: 20px 0; }
+    .index--container .row .container {
+      text-align: center; }
+  .index--container .message {
+    position: absolute;
+    top: 20px;
+    display: none; }
+
+/*# sourceMappingURL=index.css.map */
